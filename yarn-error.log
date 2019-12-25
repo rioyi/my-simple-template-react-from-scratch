@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/rioyi/.nvm/versions/node/v10.16.3/bin/node /Users/rioyi/.nvm/versions/node/v10.16.3/bin/yarn add react react-dom @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli babel-loader
+
+PATH: 
+  /Users/rioyi/.rvm/gems/ruby-2.6.3/bin:/Users/rioyi/.rvm/gems/ruby-2.6.3@global/bin:/Users/rioyi/.rvm/rubies/ruby-2.6.3/bin:/Users/rioyi/.nvm/versions/node/v10.16.3/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rioyi/.rvm/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/rioyi/repo/github/react-from-scratch-rioyi/package.json: Unexpected token / in JSON at position 177
+      at JSON.parse (<anonymous>)
+      at /Users/rioyi/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/rioyi/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /Users/rioyi/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "react-from-scratch",
+    "version": "1.0.0",
+    "description": "Base de reactjs from scratch simple",
+    "main": "index.js",
+    "author": "rioyi",
+    "license": "MIT"
+  }
+  
+  // npm i react
+        // react-dom
+        // @babel/core
+        // @babel/preset-env
+        // @babel/preset-react
+        // webpack
+        // webpack-cli
+        // babel-loader
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

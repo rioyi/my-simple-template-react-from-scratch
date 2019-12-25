@@ -1,0 +1,9 @@
+Se instalaron las siguiente paquetes:
+yarn add react
+         react-dom
+         @babel/core
+         @babel/preset-env
+         @babel/preset-react
+         webpack
+         webpack-cli
+         babel-loader
